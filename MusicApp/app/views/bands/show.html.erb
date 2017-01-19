@@ -1,0 +1,11 @@
+<h1> <%= @band.name %></h1>
+
+<!-- links to: editing, destroying, up one level, down one level -->
+
+<a href="<%= edit_band_url(@band) %>">Edit band</a>
+<br>
+<a href="<%= band_url(@band) %>">Delete band</a>
+<br>
+<a href="<%= bands_url %>">All bands</a>
+<br>
+<a href="<%= new_band_album_url(@band) %>">New album</a>
